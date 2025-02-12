@@ -4,7 +4,7 @@ int main(){
     int num,i;
     char bool = 'V';
 
-    printf("| Inrgresa un numero\n");
+    printf("| Ingresa un numero\n");
     printf("|-> " ); scanf( "%d", &num );
 
     // Si el numero es menor que 2, no es primo.
@@ -16,7 +16,7 @@ int main(){
             bool = 'F';
         }
     }
-    // Si no se cumple todo eso entonces es primo
+    // Si no se cumple todo lo anterior, entonces es primo.
 
     printf( "%c" , bool );
 

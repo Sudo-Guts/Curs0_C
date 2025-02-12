@@ -5,7 +5,7 @@ int main(){
     char F[50];
     int i,j = 0 ;
 
-    printf("| Inrgresa una frase\n");
+    printf("| Ingresa una frase\n");
     printf("|-> " ); gets( frase );
 
     for( i = 0 ; i < 50  ; i++ ){
